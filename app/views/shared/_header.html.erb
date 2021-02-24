@@ -1,10 +1,10 @@
 <header class='top-page-header'>
   <div class='nav'>
     <ul class='lists-left'>
-      <li><%= link_to 'オンラインゲーム紹介', root_path, class: "page-title" %></li>
+      <li><%= link_to 'オンラインゲーム紹介', "#", class: "page-title" %></li>
     </ul>
     <ul class='lists-right'>
-      <% if %>
+      <% if  %>
         <li><%= link_to 'オンラインゲーム', "#", class: "user-nickname" %></li>
         <li><%= link_to 'ログアウト', "#", method: :delete, class: "logout" %></li>
       <% else%>
